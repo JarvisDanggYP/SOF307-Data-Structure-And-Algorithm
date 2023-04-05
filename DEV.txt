@@ -1,0 +1,153 @@
+1. Constructor:
+Constructor là một loại phương thức đặc biệt được tự động gọi khi một đối tượng được tạo ra. 
+Chức năng chính của nó là khởi tạo các biến của đối tượng với giá trị mặc định hoặc do người dùng định nghĩa. 
+Trong hầu hết các ngôn ngữ lập trình, phương thức khởi tạo có cùng tên với lớp mà nó thuộc về.
+
+2. Class và Object:
+Lớp là một khuôn mẫu hoặc mẫu để tạo ra các đối tượng, xác định một tập hợp các thuộc tính và phương thức. 
+Một đối tượng, là một phiên bản của một lớp. 
+Khi một đối tượng được tạo ra, nó kế thừa tất cả các thuộc tính và phương thức được định nghĩa trong lớp.
+
+3. Quá tải phương thức (Overloading):
+Quá tải phương thức đề cập đến khả năng định nghĩa nhiều phương thức cùng tên trong một lớp, nhưng với các tham số khác nhau. 
+Điều này cho phép các nhà lập trình cung cấp nhiều cách để thực hiện cùng một hoạt động trên các loại dữ liệu khác nhau.
+
+4. Ghi đè phương thức (Overriding):
+Ghi đè xảy ra khi một lớp con cung cấp một cài đặt khác của một phương thức đã được định nghĩa trong lớp cha của nó. 
+Điều này cho phép lớp con cung cấp một cài đặt cụ thể hơn của phương thức phù hợp với ngữ cảnh của nó.
+
+5. Bốn nguyên tắc của OOP:
+
+-1. Trừu tượng: Đây là quá trình đơn giản hóa các hệ thống phức tạp bằng cách chia chúng thành các phần nhỏ hơn, 
+dễ quản lý hơn. Trong OOP, trừu tượng được đạt được thông qua việc sử dụng lớp trừu tượng và các giao diện, 
+xác định một tập hợp các hành vi chung có thể được thực hiện bởi nhiều lớp khác nhau.
+
+-2. Đa hình: Đa hình là khả năng của đối tượng để có nhiều hình dạng hoặc hành vi khác nhau trong các tình huống khác nhau. 
+Điều này cho phép các đối tượng thích ứng với các yêu cầu khác nhau trong cùng một chương trình.
+
+-3. Kế thừa: Kế thừa là khả năng của một lớp để kế thừa các thuộc tính và phương thức của một lớp khác.
+ Việc sử dụng kế thừa giúp tái sử dụng mã và giảm độ phức tạp của chương trình.
+
+-4. Đóng gói: Đóng gói là khả năng ẩn thông tin của một đối tượng khỏi bên ngoài 
+và chỉ tiết lộ thông tin cần thiết thông qua các giao diện được định nghĩa rõ ràng.
+ Việc sử dụng đóng gói giúp bảo vệ dữ liệu của đối tượng và đảm bảo tính toàn vẹn của chương trình.
+
+Tóm lại, OOP là một phương pháp lập trình hướng đối tượng dựa trên bốn nguyên tắc chính: đóng gói, kế thừa, đa hình và trừu tượng. 
+Việc áp dụng OOP giúp giảm độ phức tạp của mã và tăng tính tái sử dụng, đồng thời giúp tăng tính linh hoạt và khả năng mở rộng của chương trình.
+
+
+##
+
+1. Các kiểu dữ liệu trong cơ sở dữ liệu:
+
+-1. Kiểu dữ liệu số (numeric):
+	Integer: kiểu số nguyên, lưu trữ các giá trị số nguyên không có phần thập phân.
+	Decimal: kiểu số thực, lưu trữ các giá trị số có phần thập phân cố định.
+	Float và double: kiểu số thực, lưu trữ các giá trị số có phần thập phân biến đổi.
+-2. Kiểu dữ liệu ký tự (character):
+	Char: kiểu ký tự cố định, lưu trữ các giá trị ký tự có độ dài cố định.
+	Varchar: kiểu ký tự có độ dài biến đổi, lưu trữ các giá trị ký tự với độ dài tối đa được chỉ định.
+	Text: kiểu ký tự có độ dài biến đổi không giới hạn, lưu trữ các giá trị ký tự lớn.
+-3. Kiểu dữ liệu ngày tháng (date/time):
+	Date: kiểu ngày, lưu trữ các giá trị ngày.
+	Time: kiểu thời gian, lưu trữ các giá trị thời gian.
+	Datetime: kiểu ngày giờ, lưu trữ các giá trị ngày giờ.
+-4. Kiểu dữ liệu boolean:
+	Boolean: kiểu dữ liệu logic, chỉ có hai giá trị là true và false.
+-5. Kiểu dữ liệu binary:
+	Binary: kiểu dữ liệu nhị phân, lưu trữ các giá trị nhị phân (bit) hoặc dữ liệu nhị phân.
+-6. Kiểu dữ liệu khác:
+	UUID: kiểu dữ liệu đại diện cho một chuỗi ký tự định danh duy nhất.
+	JSON: kiểu dữ liệu đại diện cho một đối tượng JSON (JavaScript Object Notation).
+	XML: kiểu dữ liệu đại diện cho một tài liệu XML (Extensible Markup Language).
+Mỗi cơ sở dữ liệu có thể hỗ trợ các kiểu dữ liệu khác nhau, và có thể có các kiểu dữ liệu tùy chỉnh được tạo ra để đáp ứng các nhu cầu cụ thể của người dùng.
+
+2. Các kiểu join:
+
+-1. Inner join: Lấy ra các bản ghi có chung giá trị trong cột kết nối ở cả hai bảng.
+-2. Left join: Lấy ra tất cả các bản ghi từ bảng bên trái và các bản ghi tương ứng từ bảng bên phải.
+-3. Right join: Lấy ra tất cả các bản ghi từ bảng bên phải và các bản ghi tương ứng từ bảng bên trái.
+-4. Full outer join: Lấy ra tất cả các bản ghi từ cả hai bảng, bao gồm cả những bản ghi không có trong bảng kết nối.
+
+
+3. Primary key là một cột hoặc tập hợp các cột trong một bảng cơ sở dữ liệu, được sử dụng để định danh duy nhất cho mỗi bản ghi trong bảng đó.
+
+4. Foreign key là một cột trong bảng, liên kết với primary key trong bảng khác để tạo ra một mối quan hệ giữa hai bảng.
+
+5. Union là phép toán gộp các kết quả của hai hoặc nhiều câu lệnh SELECT vào một bảng duy nhất, bao gồm các bản ghi không trùng lặp.
+
+6. Minus là phép toán lấy ra các bản ghi có trong kết quả của câu lệnh SELECT đầu tiên mà không có trong kết quả của câu lệnh SELECT thứ hai.
+
+7. Subquery là một câu lệnh SELECT được sử dụng như một phần của một câu lệnh SELECT khác. 
+Subquery thường được sử dụng để lấy ra các bản ghi thỏa mãn điều kiện từ bảng khác.
+
+##
+
+1. Linked List:
+	Linked List là một cấu trúc dữ liệu được sử dụng để lưu trữ và quản lý các đối tượng liên tiếp nhau, 
+		được gọi là các nút (node), trong đó mỗi nút bao gồm một giá trị và một tham chiếu đến nút tiếp theo trong danh sách. 
+		Các thuật toán thường được sử dụng với Linked List bao gồm:
+	-1. Traversing: duyệt qua các nút trong danh sách.
+	-2. Insertion: chèn một nút mới vào danh sách.
+	-3. Deletion: xóa một nút khỏi danh sách.
+	-4. Searching: tìm kiếm một giá trị trong danh sách.
+2. Binary Tree:
+	Binary Tree là một cấu trúc dữ liệu phân tán, trong đó mỗi nút có tối đa hai nút con, 
+		được gọi là nút trái và nút phải. Các thuật toán thường được sử dụng với Binary Tree bao gồm:
+	-1. Traversing: duyệt qua các nút trong cây.
+	-2. Insertion: chèn một nút mới vào cây.
+	-3. Deletion: xóa một nút khỏi cây.
+	-4. Searching: tìm kiếm một giá trị trong cây.
+	-5. Sorting: sắp xếp các giá trị trong cây theo thứ tự tăng dần hoặc giảm dần.
+3. Sorting Algorithm:
+	Thuật toán sắp xếp là các thuật toán được sử dụng để sắp xếp các phần tử trong một danh sách hoặc một mảng theo một tiêu chí nào đó, 
+		ví dụ như theo thứ tự tăng dần hoặc giảm dần. Các thuật toán sắp xếp được chia thành hai loại chính: thuật toán sắp xếp nội bộ và thuật toán sắp xếp ngoại bộ.
+		Thuật toán sắp xếp nội bộ (Internal Sorting Algorithm):
+		Các thuật toán sắp xếp nội bộ là các thuật toán sắp xếp các phần tử trong một mảng hoặc một danh sách. 
+		Các thuật toán sắp xếp nội bộ phổ biến bao gồm:
+	+ Bubble Sort: Sắp xếp các phần tử của mảng bằng cách so sánh các phần tử kề nhau và đổi chỗ chúng nếu chúng không được sắp xếp đúng thứ tự.
+	+ Selection Sort: Sắp xếp các phần tử của mảng bằng cách chọn phần tử nhỏ nhất và đưa nó vào đầu mảng, 
+		tiếp tục tìm phần tử nhỏ nhất trong phần còn của mảng còn lại và đưa nó vào vị trí tiếp theo của mảng.
+	+ Insertion Sort: Sắp xếp các phần tử của mảng bằng cách chèn phần tử mới vào đúng vị trí trong mảng đã sắp xếp trước đó.
+	+ Merge Sort: Sắp xếp các phần tử của mảng bằng cách chia mảng thành hai phần, sắp xếp riêng từng phần, 
+		và sau đó trộn hai phần đã sắp xếp lại với nhau để tạo ra một mảng mới đã được sắp xếp.
+	+ Quick Sort: Sắp xếp các phần tử của mảng bằng cách chọn một phần tử làm phần tử chốt, sau đó phân hoạch mảng thành hai phần, 
+		một phần chứa các phần tử nhỏ hơn phần tử chốt và một phần chứa các phần tử lớn hơn hoặc bằng phần tử chốt. 
+		Tiếp tục áp dụng thuật toán Quick Sort cho cả hai phần đã phân hoạch.
+
+Thuật toán sắp xếp ngoại bộ (External Sorting Algorithm):
+Các thuật toán sắp xếp ngoại bộ là các thuật toán sắp xếp các phần tử trong một file rất lớn hoặc trong các dữ liệu được lưu trữ trên đĩa cứng. 
+Các thuật toán sắp xếp ngoại bộ phổ biến bao gồm:
+	+ Merge Sort: Cũng được sử dụng cho sắp xếp nội bộ, nhưng nó cũng có thể được sử dụng cho sắp xếp ngoại bộ bằng cách 
+		chia các phần của tập dữ liệu thành các phần nhỏ hơn, sắp xếp từng phần nhỏ, và sau đó trộn các phần đã 
+		sắp xếp lại với nhau để tạo ra một tập dữ liệu lớn đã được sắp xếp.
+	+ Radix Sort: Sắp xếp các phần tử của tập dữ liệu bằng cách sắp xếp chúng theo từng chữ số, 
+		bắt đầu từ chữ số cuối cùng và kết thúc với chữ số đầu tiên.
+
+Những thuật toán này có thể được sử dụng trong nhiều ứng dụng khác nhau, từ các ứng dụng máy tính cơ bản đến 
+các ứng dụng phức tạp hơn như Machine Learning và AI. Việc hiểu và sử dụng chúng một cách hiệu quả sẽ giúp cho các lập trình viên.
+
+##
+
+Mô hình MVC (Model-View-Controller) là một mô hình kiến trúc phần mềm được sử dụng để xây dựng các ứng dụng web. 
+Mô hình này chia ứng dụng thành ba phần chính là Model, View và Controller.
+
+	1. Model: Là phần chứa các dữ liệu và luật tính toán. Nó đại diện cho dữ liệu được sử dụng trong ứng dụng và cung cấp 
+		các phương thức để thao tác và truy xuất dữ liệu.
+
+	2. View: Là phần giao diện người dùng. Nó đại diện cho các thành phần UI (User Interface) trong ứng dụng, 
+		chẳng hạn như các nút bấm, trường nhập liệu và danh sách. View không chứa bất kỳ dữ liệu nào và chỉ hiển thị dữ liệu được cung cấp bởi Model.
+
+	3. Controller: Là phần điều khiển hoạt động của ứng dụng. Nó đại diện cho các hoạt động thực hiện trên ứng dụng, 
+		chẳng hạn như nhận các yêu cầu từ người dùng và xử lý chúng bằng cách gọi các phương thức của Model. 
+		Controller sau đó cập nhật View để hiển thị dữ liệu mới nhất.
+
+Mô hình MVC có nhiều ưu điểm, chẳng hạn như:
+
+	1. Tách biệt chức năng của ứng dụng, giúp dễ dàng bảo trì và mở rộng ứng dụng.
+	2. Cho phép độc lập giữa các thành phần, giúp quản lý code và viết code dễ dàng hơn.
+	3. Dễ dàng kiểm thử và gỡ lỗi vì các thành phần độc lập.
+Mô hình MVC được sử dụng trong nhiều ngôn ngữ lập trình, chẳng hạn như PHP, Ruby on Rails và ASP.NET.
+
+
+
